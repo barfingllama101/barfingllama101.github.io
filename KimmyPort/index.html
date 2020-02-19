@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>FUUUCK THIS SHIT</title>
+</head>
+
+<body>
+    <div id="fullNav">
+        <div id="nav">
+            <div id="navContent">
+                <img src="kimmy.jpg" alt="me!">
+                <h1>Kimmy Goewey</h1>
+                <h3> Game developer. Software Engineer. Squishable enthusiast</h3>
+                <button id="cme">Contact me</button>
+                 <div id="cmem" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                       
+                      <form method="post" action="test.php">
+        
+                    <label>Name</label>
+                    <input name="emailer" type ="name" placeholder="Your Name Here">
+                    
+                    <label>Email</label>
+                    <input name="email" type="email" placeholder="person@sample.com">
+                    
+                    <label>Subject</label>
+                    <input name="subject" type="subject" placeholder="The Email Subject">
+                    
+                    <label>Message</label>
+                    <textarea name="message" type="message" placeholder="Type Your Message Here!"></textarea>
+                    
+                    <input id="submit" name="submit" type="submit" value="Submit">
+                </form>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1MCPbmblEuq5z7S0hYGc20OANLh1_czu8/view?usp=sharing">
+                    <h1>My Resume</h1>
+                </a>
+                <a href="https://www.linkedin.com/in/kimberly-gordon-5731a7125" target="_blank">
+                    <h1>LinkedIn</h1>
+                </a>
+                <a href="https://twitter.com/KimmyGGameDev">Twitter</a>
+                <div id="navSpace">
+                </div>
+            </div>
+        </div>
+        <div id="navImg">
+            <img src="nav.svg" alt="nav button" id="navImage" onclick="toggleNav()">
+        </div>
+    </div>
+
+    <div id="grid">
+        <div id="navSpace">
+
+            <div id="test">
+                <h3>Hi! My name is Kimmy! I am a passionate game developer and software engineer who has worked on various professional and personal projects from 2015 until now! Listed are a few of my favorite personal / semipersonal projects throughout the years. </h3>
+
+            </div>
+        </div>
+        <div id="projectGrid">
+            <div class="project">
+                <img src="images/portfolio/wyvern/titleWyv.png" alt="placeholder">
+                <h3>Wyvern</h3>
+                <p>A hurricane preparedness simulator utilizing IBM technology</p>
+                <button id="btn1">learn more!</button>
+                <div id="m1" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> <img src="images/portfolio/wyvern/survivaltip.png" alt="survival tip ui">
+                            <img src="images/portfolio/wyvern/kitchen.png" alt="kitchen scene"><img src="images/portfolio/wyvern/chairGrab.png" alt="chair grab"></div>
+                        <p>Wyvern is a 3d, crossplatform natural disaster simulator that teaches users the steps they need to take in their own home to be prepared for natural disasters. I programmed object interactions and was in charge of level design. This game was created in 24 hours at HACKRPI for the CodeResponse challenge.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/portfolio/betthefarm/chosen/BTFVBeta.png" alt="placeholder">
+                <h3>Bet The Farm</h3>
+                <p>A strategic, open world farming simulator made in Unity3d</p>
+                <button id="btn2">learn more!</button>
+                <div id="m2" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> <img src="images/portfolio/betthefarm/chosen/pig.png" alt="our round pig ai"> <img src="images/portfolio/betthefarm/chosen/stable.png" alt="farm"> <img src="images/portfolio/betthefarm/chosen/thowlettuce.png" alt="lettuce throwing"> <img src="images/portfolio/betthefarm/chosen/throwtomate.png" alt="tomato throwing"> </div>
+                        <p>Bet The Farm was a 3d, interactive simulation of the "real life" BEST robotics course. This allowed our drivers to test different game strategies, speeds, and parts before creating and testing them in real life. After this use, the simulation was converted into a game where the player can corral pigs, pick corn, sort and harvest lettuce and tomatoes, and plant seeds all within three minutes, just as the actual robotics course. After play testing at the Bowling Green State University science fair, I decided to get rid of the three minute limit and seed planting. This was the first time one of my games created a line nearly out the door to play. At the competition, there was a similar reaction to the point where my friends had to make a time limit per player. In the end, our team won first! Unfortunately, the last version of the game was presented on my old laptop and was not uploaded to Unity's cloud service, so I only have images of previous builds. I was largely inspired by MySims Kingdom for the art style and, little did I know, pig corralling portions of the game. This game shaped my childhood and as my first non personal Unity game, I hope I did it justice. I learned how to take feedback as a developer, code simple AI, and gained a better understanding of what makes a game addicting. Some challenges I faced were definitely switching from PC to Xbox controls as the switch made picking up objects with a "click" a bit more difficult to figure out as a then beginner game programmer.</p>
+                    </div>
+                </div>
+            </div>
+  
+     
+            <div class="project">
+                <img src="images/portfolio/fruits/title.png" alt="placeholder">
+                <h3>Fruits of your Labor</h3>
+                <p>An open world game teaching kids the power of their community garden!</p>
+                <button id="btn3">learn more!</button>
+                <div id="m3" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> <img src="images/portfolio/fruits/Screen%20Shot%202018-10-28%20at%2010.02.02%20AM.png" alt="scene view with tomatoes">
+                        </div>
+                        <p>Fruits of your Labor was an open world hackathon project for the DandyHacks Hackathon. Our project aimed to show children the magic of community gardens and how they can help their communities. In the game, you play as a child and complete multiple tasks such as planting, growing, and harvesting tomatoes for rewards such as a salsa party or a new swing set for the school. I worked on programming while my partner did the art. The main challenge for me was not overscoping the project. I conquered this challenge by working on the game in steps and adding features as other big steps were accomplished. </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/portfolio/crossfire/chosen/crossTitle.png" alt="placeholder">
+                <h3>CrossFire</h3>
+                <p>An open world, strategic fire simulation</p>
+                <button id="btn4">learn more!</button>
+                <div id="m4" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> <img src="images/portfolio/crossfire/chosen/manny%20and%20chemdrums.png" alt ="manny the dummy"><img src="images/portfolio/crossfire/chosen/Crossfirefire.png" alt="fires">
+                        </div>
+                        <p>This was another 3d interactive simulation of a BEST robotics course. This was done in c# and Unity. This game also helped our team win first overall. I learned how to make a local multiplayer game in Unity as well as partical collisions. </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/portfolio/neanderthal/title.png" alt="placeholder">
+                <h3>Neanderthal Game</h3>
+                <p>A serious game about neanderthals</p>
+                <button id="btn5">learn more!</button>
+                <div id="m5" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> <img src="images/portfolio/wyvern/survivaltip.png" alt="Bhutan">
+                            <img src="images/portfolio/wyvern/kitchen.png" alt="Bhutan"><img src="images/portfolio/wyvern/chairGrab.png" alt="WHERE TF ARE THE IMAGES"></div>
+                        <p>neanderthall text </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/portfolio/kitchen/chosen/kCtITLE.png" alt="placeholder">
+                <h3>Kimmy's Crazy Kitchen</h3>
+                <p>A cooking simulator with a twist </p>
+                <button id="btn6">learn more!</button>
+                <div id="m6" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="container"> </div>
+                        <p>A cooking simulator where you have to cook ... special ... recipes until time runs out.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Unknown.png" alt="placeholder">
+                <h3>Surgical Game</h3>
+                <p>WHOOPS! This is under NDA... Inquire to ask more!</p>
+                <button id="btn7">learn more!</button>
+                <div id="m7" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+
+                        <p>bleep blorp nothing to see here...</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Unknown.png" alt="placeholder">
+                <h3>Lockdown</h3>
+                <p>hmm... this looks to be under NDA. Contact me directly if you want to learn more! but not too much more...</p>
+                <button id="btn8">learn more!</button>
+                <div id="m8" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+
+                        <p>bleep blorp nothing to see here...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Unknown.png" alt="placeholder">
+                <h3>Lockdown</h3>
+                <p>hmm... this is under NDA. Contact me directly if you want to learn more! but not too much more ...</p>
+                <button id="btn9">learn more!</button>
+                <div id="m9" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+
+                        <p>Developed for a multiple companies and in use in multiple countries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let navImage = document.querySelector('#navImage');
+        let contact = document.getElementById("test");
+        contact.style.width = "0px";
+
+        function toggleNav() {
+            let navBar = document.querySelector('#nav');
+            let navSpace = document.querySelector('#navSpace');
+            if (navBar.style.width == "0px") {
+                navBar.style.width = "350px";
+                navSpace.style.width = "300px";
+                navSpace.style.transition = "0.5s";
+                contact.style.width = "0px";
+                // 0 mean it has no text 
+                console.log("it is 0");
+
+
+            } else {
+                navBar.style.width = "0px";
+                navSpace.style.width = "0px";
+                navSpace.style.transition = "0.75s";
+                contact.style.width = "300px";
+            }
+        }
+
+        // Get the modal
+        var modal = document.getElementById("m1");
+        var modal2 = document.getElementById("m2");
+        var modal3 = document.getElementById("m3");
+        var modal4 = document.getElementById("m4");
+        var modal5 = document.getElementById("m5");
+        var modal6 = document.getElementById("m6");
+        var modal7 = document.getElementById("m7");
+        var modal8 = document.getElementById("m8");
+        var modal9 = document.getElementById("m9");
+
+        var modal10 = document.getElementById("cmem");
+        // Get the button that opens the modal
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var btn3 = document.getElementById("btn3");
+        var btn4 = document.getElementById("btn4");
+        var btn5 = document.getElementById("btn5");
+        var btn6 = document.getElementById("btn6");
+        var btn7 = document.getElementById("btn7");
+        var btn8 = document.getElementById("btn8");
+        var btn9 = document.getElementById("btn9");
+
+        
+        var btn10 = document.getElementById("cme");
+        // Get the <span> element that closes the modal
+        var spans = document.querySelectorAll(".close");
+        //  var span = document.getElementsByClassName("close")[0];
+        //var span = document.getElementsByClassName("close")[2];
+        //var span = document.getElementsByClassName("close")[3];
+
+        // When the user clicks on the button, open the modal
+        btn1.onclick = function() {
+            modal.style.display = "block";
+        }
+        btn2.onclick = function() {
+            modal2.style.display = "block";
+        }
+        btn3.onclick = function() {
+            modal3.style.display = "block";
+        }
+        btn4.onclick = function() {
+            modal4.style.display = "block";
+        }
+        btn5.onclick = function() {
+            modal5.style.display = "block";
+        }
+        btn6.onclick = function() {
+            modal6.style.display = "block";
+        }
+        btn7.onclick = function() {
+            modal7.style.display = "block";
+        }
+        btn8.onclick = function() {
+            modal8.style.display = "block";
+        }
+        btn9.onclick = function() {
+            modal9.style.display = "block";
+        }
+        btn10.onclick = function(){
+            modal10.style.display="block";
+        }
+        for (span of spans) {
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+                modal2.style.display = "none";
+                modal3.style.display = "none";
+                modal4.style.display = "none";
+                modal5.style.display = "none";
+                modal6.style.display = "none";
+                modal7.style.display = "none";
+                modal8.style.display = "none";
+                modal9.style.display = "none";
+                modal10.style.display = "none";
+            }
+
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+            if (event.target == modal4) {
+                modal4.style.display = "none";
+            }
+            if (event.target == modal5) {
+                modal5.style.display = "none";
+            }
+            if (event.target == modal6) {
+                modal6.style.display = "none";
+            }
+            if (event.target == modal7) {
+                modal7.style.display = "none";
+            }
+            if (event.target == modal8) {
+                modal8.style.display = "none";
+            }
+            if (event.target == modal9) {
+                modal9.style.display = "none";
+            }
+            if(event.target == modal10){
+                modal10.style.display = "none";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
